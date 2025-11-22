@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Route, BrowserRouter as Router , Routes } from "react-router-dom";
 import Navbar from "./componentes/Navbar";
 import Footer from "./componentes/Footer";
 
@@ -24,7 +24,7 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/gerador" element={<Gerador />} />
           <Route path="/cadastro" element={<Cadastro />} />
-          <Route path="/projeto" element={<Projeto />}/>
+          <Route path="/projeto" element={<Projeto />} />
         </Routes>
         </main>
 
